@@ -1,13 +1,13 @@
 function NavTabs({ currentPage, setCurrentPage }) {
   return (
-    <div>
-      <h1>{currentPage === "Home" ? "" : "Nik Ertle"}</h1>
-      <ul className="nav nav-tabs">
+    <div className="row bg-dark">
+      <h3 className="col-8 text-light">{currentPage === "Home" ? "" : "Nik Ertle"}</h3>
+      <ul className="col-4 nav nav-tabs">
         <li className="nav-item">
           <a
             href="#home"
             onClick={() => setCurrentPage("Home")}
-            className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+            className={currentPage === "Home" ? "nav-link active" : "nav-link text-light"}
           >
             Home
           </a>
@@ -16,7 +16,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
           <a
             href="#about"
             onClick={() => setCurrentPage("About")}
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
+            className={currentPage === "About" ? "nav-link active" : "nav-link text-light"}
           >
             About
           </a>
@@ -25,8 +25,8 @@ function NavTabs({ currentPage, setCurrentPage }) {
           <a
             href="#portfolio"
             onClick={() => setCurrentPage("Portfolio")}
-            className={
-              currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+            className={ 
+              currentPage === "Portfolio" ? "nav-link active" : "nav-link text-light"
             }
           >
             Portfolio
@@ -37,7 +37,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
             href="#contact"
             onClick={() => setCurrentPage("Contact")}
             className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
+              currentPage === "Contact" ? "nav-link active" : "nav-link text-light"
             }
           >
             Contact
@@ -48,7 +48,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
             href="#resume"
             onClick={() => setCurrentPage("Resume")}
             className={
-              currentPage === "Resume" ? "nav-link active" : "nav-link"
+              currentPage === "Resume" ? "nav-link active" : "nav-link text-light"
             }
           >
             Resume
