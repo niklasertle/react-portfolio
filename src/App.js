@@ -1,10 +1,8 @@
-import './App.css';
+import PortfolioContainer from "./components/PortfolioContainer"
 
 function App() {
   return (
-    <div>
-      <h1>My Portfolio</h1>
-    </div>
+    <PortfolioContainer />
   );
 }
 
