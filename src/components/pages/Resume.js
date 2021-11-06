@@ -6,3 +6,6 @@ export default function About() {
     );
   }
   
+  // TODO: Add download link for resume
+  // TODO: Add Proficienies
+  // TODO: Style

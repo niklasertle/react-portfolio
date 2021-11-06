@@ -6,3 +6,6 @@ export default function About() {
     );
   }
   
+  // TODO: Add cards with projects
+  // TODO: Add modals for each of projects
+  // TODO: Style page
