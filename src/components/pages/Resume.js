@@ -1,11 +1,19 @@
 export default function About() {
-    return (
-      <div>
+  return (
+    <div>
+      <div className='text-center'>
         <h1>Resume</h1>
-        <p>Download my Resume <a href="#" download="#" target="_blank">here</a></p>
-        <div>
-          <h2>Front-end Proficiencies</h2>
-          <ul>
+        <p>
+          Download my resume{" "}
+          <a href="#" download="#" target="_blank">
+            here
+          </a>
+        </p>
+      </div>
+      <div className="row text-center">
+        <div className="col-6">
+          <h3>Front-end Proficiencies</h3>
+          <ul className="list-unstyled">
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
@@ -15,9 +23,9 @@ export default function About() {
             <li>ReactJS</li>
           </ul>
         </div>
-        <div>
-          <h2>Back-end Proficiencies</h2>
-          <ul>
+        <div className="col-6">
+          <h3>Back-end Proficiencies</h3>
+          <ul className="list-unstyled">
             <li>APIs</li>
             <li>Node</li>
             <li>Express</li>
@@ -30,8 +38,9 @@ export default function About() {
           </ul>
         </div>
       </div>
-    );
-  }
-  
-  // TODO: Add download link for resume
-  // TODO: Style
+    </div>
+  );
+}
+
+// TODO: Add Resumse file to download
+// TODO: Coloring
