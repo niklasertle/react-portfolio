@@ -1,3 +1,5 @@
+import fileDownload from './assets/ne_resume.pdf'
+
 export default function About() {
   return (
     <div>
@@ -5,7 +7,7 @@ export default function About() {
         <h1>Resume</h1>
         <p>
           Download my resume{" "}
-          <a href="#" download="#" target="_blank">
+          <a href={fileDownload} download="NE_Resume" target="_blank">
             here
           </a>
         </p>
@@ -41,5 +43,3 @@ export default function About() {
     </div>
   );
 }
-
-// TODO: Add Resume file to download

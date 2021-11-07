@@ -1,3 +1,24 @@
 body {
     background-color: whitesmoke;
+    height: 100%;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./components/pages/assets/sky-bg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+}
+
+.hero-text {
+    color: white;
+    text-align: right;
+    padding-right: 450px;
+    padding-top: 300px;
 }

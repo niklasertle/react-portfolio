@@ -1,8 +1,11 @@
 export default function Home() {
   return (
-    <div id="hero-txt">
-      <h1 id="hero-head">Niklas Ertle</h1>
-      <p>Full Stack Web Developer Based in Denver, CO</p>
+    <div className="hero-image">
+      <div className="hero-text">
+        <h1>Niklas Ertle</h1>
+        <p>Full Stack Web Developer</p>
+        <p>Based in Denver, CO</p>
+      </div>
     </div>
   );
 }
