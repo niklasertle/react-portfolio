@@ -20,7 +20,7 @@ export default function About() {
             <li>jQuery</li>
             <li>Bootstrap</li>
             <li>Responsive Design</li>
-            <li>ReactJS</li>
+            <li>React</li>
           </ul>
         </div>
         <div className="col-6">
@@ -42,5 +42,5 @@ export default function About() {
   );
 }
 
-// TODO: Add Resumse file to download
+// TODO: Add Resume file to download
 // TODO: Coloring
