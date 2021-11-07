@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div>
-      <h1>About</h1>
+    <div className="m-5">
+      <h1 className="mb-5">About</h1>
       <p>
         Full Stack Web Developer with a Web Development Certificate from the
         University of Denver with experience in HTML, CSS, and Javascript. As

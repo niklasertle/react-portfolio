@@ -4,16 +4,20 @@ export default function Footer() {
       <div className="row bg-dark card-footer fixed-bottom text-center">
         <p className="col-3">
           <a href="mailto:nik.ertle16@gmail.com">
-            <i class="fas fa-envelope-square"></i>
+            <i className="fas fa-envelope-square"></i>
           </a>
         </p>
         <p className="col-3">
           <a href="tel:3037094702">
-            <i class="fas fa-phone"></i>
+            <i className="fas fa-phone"></i>
           </a>
         </p>
         <p className="col-3">
-          <a href="https://github.com/niklasertle" target="_blank">
+          <a
+            href="https://github.com/niklasertle"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-github"></i>
           </a>
         </p>
@@ -21,6 +25,7 @@ export default function Footer() {
           <a
             href="https://www.linkedin.com/in/niklas-ertle-796492212/"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fab fa-linkedin"></i>
           </a>

@@ -43,4 +43,3 @@ export default function About() {
 }
 
 // TODO: Add Resume file to download
-// TODO: Coloring

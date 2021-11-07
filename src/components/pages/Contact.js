@@ -31,7 +31,6 @@ export default function About() {
     setUserName("");
     setEmail("");
     setMessage("");
-    setErrorMessage("Thank you for your interest!");
   };
 
   return (
@@ -76,14 +75,11 @@ export default function About() {
           </div>
         </form>
         {errorMessage && (
-          <div>
-            <p>{errorMessage}</p>
+          <div className="m-4 text-danger">
+            <h4>{errorMessage}</h4>
           </div>
         )}
       </div>
     </div>
   );
 }
-
-// TODO: Add contact form
-// TODO: Style this page
