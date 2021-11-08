@@ -9,6 +9,3 @@ export default function Home() {
     </div>
   );
 }
-
-// TODO: Style page
-// TODO: Add hero banner

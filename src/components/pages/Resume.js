@@ -1,4 +1,4 @@
-import fileDownload from './assets/ne_resume.pdf'
+import fileDownload from '../../assets/ne_resume.pdf'
 
 export default function About() {
   return (

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { validateEmail } from "../../utils/helpers"
 
 export default function About() {
   const [userName, setUserName] = useState("");
@@ -19,7 +20,7 @@ export default function About() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!email || !userName) {
+    if (!validateEmail(email) || !userName) {
       setErrorMessage("Name or email is invalid");
       return;
     }
