@@ -1,10 +1,19 @@
+import { useState } from 'react'
+
 function NavTabs({ currentPage, setCurrentPage }) {
+  const [showLinks, setShowLinks] = useState(false)
+
+  function handleShowNav () {
+    setShowLinks(!showLinks)
+  }
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-4">
         <a className="navbar-brand">Nik Ertle</a>
         <div>
-          <div className="navbar-nav">
+          <button className="btn btn-primary" id='toggle-button' onClick={handleShowNav}><i class="fas fa-bars"></i></button>
+          <div className="navbar-nav" id={showLinks ? "hidden": ""}>
             <a
               href="#home"
               onClick={() => setCurrentPage("Home")}
