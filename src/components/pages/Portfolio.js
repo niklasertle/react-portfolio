@@ -9,7 +9,7 @@ export default function About() {
         <h1>My Projects</h1>
       </div>
       <div className="row">
-        <div className="col-lg-4 col-md-12">
+        <div className="col-lg-4 col-md-12 border border-secondary rounded">
           <h3 className="text-center">Workout Tracker</h3>
           <img src={workoutTrackerSceenshot} alt='Workout tracker screenshot' width='100%'/>
           <p>This is a workout tracker app, that allows the user to track their workouts for a day, by saving carido and resistance workouts to a Mongo database.</p>
@@ -17,7 +17,7 @@ export default function About() {
           <h6>Technologoies</h6>
           <p>NodeJS | ExpressJS | MongoDB | Mongoose</p>
         </div>
-        <div className="col-lg-4 col-md-12">
+        <div className="col-lg-4 col-md-12 border border-secondary rounded">
           <h3 className="text-center">Get Flexed</h3>
           <img src={getFlexedScreenshot} alt='Get Flexed home page' width='100%'/>
           <p>This is a workout blog that allows the user to log in and create workouts within categories. As well as like the workout to save for later.</p>
@@ -25,7 +25,7 @@ export default function About() {
           <h6>Technologoies</h6>
           <p>HTML | CSS | JavaScript | Bulma | NodeJS | ExpressJS | Handlebars</p>
         </div>
-        <div className="col-lg-4 col-md-12">
+        <div className="col-lg-4 col-md-12 border border-secondary rounded">
           <h3 className="text-center">E-Commerce Backend</h3>
           <img src={ecommerceScreenshot} alt='Dataflow diagram' width='100%'/>
           <p>This is a program that was designed to simulate the backend of an e-commerce website using an SQL database.</p>
