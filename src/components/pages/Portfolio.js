@@ -21,7 +21,7 @@ export default function About() {
           <h3 className="text-center">Get Flexed</h3>
           <img src={getFlexedScreenshot} alt='Get Flexed home page' width='100%'/>
           <p>This is a workout blog that allows the user to log in and create workouts within categories. As well as like the workout to save for later.</p>
-          <p><a href="https://github.com/LasetteBrown/project-2-get-flexed-v2" target="_blank">GitHub</a> | <a href='#' target="_blank">Deployed App</a></p>
+          <p><a href="https://github.com/LasetteBrown/project-2-get-flexed-v2" target="_blank">GitHub</a> | <a href='https://peaceful-dawn-49261.herokuapp.com/' target="_blank">Deployed App</a></p>
           <h6>Technologoies</h6>
           <p>HTML | CSS | JavaScript | Bulma | NodeJS | ExpressJS | Handlebars</p>
         </div>
